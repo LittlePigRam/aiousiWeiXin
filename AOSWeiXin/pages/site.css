@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #c5c5c5;
+    word-wrap: break-word;
+/*    overflow: hidden; */
+    font: normal 15px "Helvetica", "Droid Sans", "Trebuchet MS";
+}
+
+/* 
+ class ＝ “jotitle”
+ */
+
+.jotitle {
+    background-color: #b8b8b8;
+    font-weight: normal;
+    /*cursor: pointer;*/
+    outline: none;
+    outline-color: transparent;
+    padding: 10px 0;
+    background-image: none;
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    /*
+     background-image: -webkit-gradient(linear, left top, left 80%, from(rgba(255, 255, 255, .3)), to(rgba(0, 0, 0, 0)));
+     */
+    
+    text-align: center;
+    padding: 10px;
+    font-size: 120%;
+    margin: 0;
+    border-left: none;
+    border-right: none;
+	border-bottom: 1px solid #858585;
+	border-top: 1px solid #d8d8d8;
+	color: #3c3c3c;
+	text-shadow: #e3e3e3 0 1px 1px;
+}
+
+.divLeft
+{
+    float:left;
+    text-align:left;
+}
+
+.table-tr-bg
+{
+    background-color: #D5D5D5;
+}
+
+
+
+#footer
+{
+	padding: 0 10px; /* id=footer this padding matches the left alignment of the elements in the divs that appear above it.  */
+	background:#DDDDDD;
+    font-size:9px;
+}
+
+#label
+{
+    font-size:12px;
+    color:#555555;
+}
+
+
+
+
+
+
+
+
+

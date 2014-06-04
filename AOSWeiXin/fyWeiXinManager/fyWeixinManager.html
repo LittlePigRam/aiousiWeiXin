@@ -1,0 +1,90 @@
+<html>
+
+    <head>
+        <title>风云微信管理界面</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+
+        <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#menu ul li #stuScoreInsert").click(function(){
+
+                            $("#main .leftbox .content").load("menuPage/pages/fystuScoreInster.html");
+                            $("#main .leftbox .tit h3").text("学员成绩录入");
+                });
+
+                //学员&教务
+                $("#menu ul li #stuRegister").click(function(){
+
+                            $("#main .leftbox .content").load("menuPage/secondLevelMenu/stuEduAdministration.html");
+                            $("#main .leftbox .tit h3").text("学员&教务");
+                });
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="logo">
+                    <img width="100%" height="100%" src="images/logo.png"/>
+                </div>
+                <div id="banner">
+
+                </div>
+                <div id="tool">
+                    <a href="#"><h3>登    陆</h3></a>
+
+                    <a href="#"><h3>注    册</h3></a>
+                </div>
+                <div class="nav"></div>
+                <div id="menu">
+                    <ul>
+                        <li><a id="stuScoreInsert" href="#">学员成绩录入</a></li>
+                        <li class="tiao"></li>
+                        <li><a id="stuRegister" href="#">学员&教务</a></li>
+                        <li class="tiao"></li>
+                        <li><a href="#">企业信息发布</a></li>
+                        <li class="tiao"></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li class="tiao"></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li class="tiao"></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav"></div>
+            <div id="main">
+                <div class="leftbox">
+                    <div class="tit"><h3>学员成绩录入</h3></div>
+
+                    <div class="content">
+                        <iframe align="center" width="100%" height="100%" src="menuPage/pages/fystuScoreInster.html"
+                                frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">
+
+                        </iframe>
+                    </div>
+                </div>
+                <div class="rightbox">
+
+                </div>
+                <div class="nav"></div>
+                <div class="guanggao">
+
+                </div>
+
+            </div>
+            <div class="nav"></div>
+            <div id="footer" align="center">
+                <p>风云教育<a href="www.17education.com2014">www.17education.com</a></p>
+                <p>Phone:0512-69172201</p>
+                <p>qq:269778837</p>
+            </div>
+        </div>
+    </body>
+
+</html>
